@@ -1,0 +1,13 @@
+.hello-world{
+    color:red;
+    margin-left: 30px;
+}
+
+:host{
+    border: 4px solid black;
+    margin-top: 100px;
+}
+
+:host {
+    --sds-c-card-color-background: #a1d6e4;
+}

@@ -1,0 +1,15 @@
+<apex:page standardController="Account" renderAs="pdf">
+    
+        <h1>Hello World</h1>
+        <apex:pageBlock title="A Block Title">
+            <apex:pageBlockSection title="A Section Title">
+                I'm three components deep!
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="A New Section">
+                {! $User.FirstName }
+                This is another section.
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:image id="theImage" value="https://developer.salesforce.com/files/salesforce-developer-network-logo.png" width="220" height="55"/>
+    
+</apex:page>

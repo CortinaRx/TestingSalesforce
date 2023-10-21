@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+        <lightning-input label="Escriba su nombre Aqui" onchange={valorGuardado}></lightning-input>
+        <lightning-button onclick={pushArray} label="Pulse Aqui para añadir Nombre"></lightning-button>
+        
+        <div>
+            <template for:each={listadoNombres} for:item="nombre">
+                <p key={nombre}>Este es un nombre nuevo: {nombre}</p>
+            </template>
+        </div>
+
+    </lightning-card>
+
+
+</template>

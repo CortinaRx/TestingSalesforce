@@ -1,0 +1,7 @@
+<template>
+    <div>
+        <template for:each={trabajadores} for:item="trabajador">
+            <c-trabajador key={trabajador} trabajador={trabajador} onhandlenombrecambiado={onChangeName}></c-trabajador>
+        </template>
+    </div>
+</template>

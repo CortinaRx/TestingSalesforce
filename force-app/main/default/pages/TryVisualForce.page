@@ -1,0 +1,6 @@
+<apex:page renderAs="pdf">
+
+
+<h1>Welcome to Universal Samples!</h1>
+
+</apex:page>
